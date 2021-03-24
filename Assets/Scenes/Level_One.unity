@@ -171,7 +171,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_Range: 50
   m_SpotAngle: 113
   m_InnerSpotAngle: 21.80208
@@ -323,6 +323,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 324945126}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (5)
@@ -433,6 +437,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Large_Cubicle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1186513150086390616, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1186513150086390617, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.407
@@ -441,6 +449,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.08
       objectReference: {fileID: 0}
+    - target: {fileID: 2874839102179180224, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2874839102179180225, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -449,6 +461,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 2874839103008427276, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2874839103008427277, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.179
@@ -456,6 +472,10 @@ PrefabInstance:
     - target: {fileID: 2874839103366116512, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.297
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839103366116527, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
@@ -471,6 +491,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1449712192}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: Entrance_Hallway_Section_1
@@ -1135,7 +1159,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_Range: 50
   m_SpotAngle: 113
   m_InnerSpotAngle: 21.80208
@@ -1228,7 +1252,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5
+  m_Intensity: 2
   m_Range: 50
   m_SpotAngle: 113
   m_InnerSpotAngle: 21.80208
@@ -1285,6 +1309,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1733023827}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (4)
@@ -1347,6 +1375,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1156140595}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: West_Wing_Hallway
@@ -1792,6 +1824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Large_Cubicle
       objectReference: {fileID: 0}
+    - target: {fileID: 1186513150086390616, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1186513150086390617, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.407
@@ -1800,6 +1836,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.08
       objectReference: {fileID: 0}
+    - target: {fileID: 2874839102179180224, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2874839102179180225, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -1808,6 +1848,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 2874839103008427276, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2874839103008427277, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.179
@@ -1815,6 +1859,10 @@ PrefabInstance:
     - target: {fileID: 2874839103366116512, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.297
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839103366116527, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
@@ -1963,6 +2011,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2034702074}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (6)
@@ -2093,7 +2145,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_Range: 50
   m_SpotAngle: 113
   m_InnerSpotAngle: 21.80208
@@ -2143,6 +2195,25 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &397642806 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+  m_PrefabInstance: {fileID: 577348891}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &397642807 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+  m_PrefabInstance: {fileID: 577348891}
+  m_PrefabAsset: {fileID: 0}
+--- !u!45 &397642808
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397642806}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 51b74d7bad397457d883c5940f7664d8, type: 2}
 --- !u!1 &399926781
 GameObject:
   m_ObjectHideFlags: 0
@@ -2245,6 +2316,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 520108514}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (5)
@@ -2307,6 +2382,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 635406696}
     m_Modifications:
+    - target: {fileID: 480002904840752816, guid: 4b61dfc98b7823945a4bdf21ef10f950, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 480002904993553433, guid: 4b61dfc98b7823945a4bdf21ef10f950, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2595,7 +2674,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_Range: 50
   m_SpotAngle: 113
   m_InnerSpotAngle: 21.80208
@@ -2652,6 +2731,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1156140595}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: West_Wing_Hallway (7)
@@ -2741,7 +2824,7 @@ Transform:
   - {fileID: 324945126}
   - {fileID: 1156140595}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &511234817
 PrefabInstance:
@@ -2750,6 +2833,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 635406696}
     m_Modifications:
+    - target: {fileID: 480002904840752816, guid: 4b61dfc98b7823945a4bdf21ef10f950, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 480002904840752816, guid: 4b61dfc98b7823945a4bdf21ef10f950, type: 3}
       propertyPath: m_SpotAngle
       value: 108
@@ -2932,7 +3019,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5
+  m_Intensity: 2
   m_Range: 50
   m_SpotAngle: 113
   m_InnerSpotAngle: 21.80208
@@ -2989,6 +3076,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 324945126}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (6)
@@ -3100,6 +3191,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 887706503}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (5)
@@ -3301,6 +3396,75 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 552618143}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &577348891
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_Name
+      value: FPSController
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -500
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_RunSpeed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_WalkSpeed
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
 --- !u!1 &586367000
 GameObject:
   m_ObjectHideFlags: 0
@@ -3620,6 +3784,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2053837427}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (5)
@@ -3682,6 +3850,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 269275852}
     m_Modifications:
+    - target: {fileID: 480002904840752816, guid: 4b61dfc98b7823945a4bdf21ef10f950, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 480002904993553433, guid: 4b61dfc98b7823945a4bdf21ef10f950, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -3744,6 +3916,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2053837427}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (4)
@@ -3806,6 +3982,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1361125359}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (5)
@@ -3871,6 +4051,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705507995}
   - component: {fileID: 705507994}
+  - component: {fileID: 705507996}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -3890,7 +4071,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.2
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -3954,6 +4135,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!45 &705507996
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 0
+  m_CustomSkybox: {fileID: 2100000, guid: bf1bf92a3ce592e40b898be6c21cc2fa, type: 2}
 --- !u!1001 &719461197
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3961,6 +4151,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1534069578}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (6)
@@ -4023,6 +4217,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1156140595}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: West_Wing_Hallway (2)
@@ -4181,6 +4379,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 840100962}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (4)
@@ -4404,6 +4606,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 324945126}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (2)
@@ -4612,6 +4818,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1872943731}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (4)
@@ -4674,6 +4884,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 269275852}
     m_Modifications:
+    - target: {fileID: 480002904840752816, guid: 4b61dfc98b7823945a4bdf21ef10f950, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 480002904993553433, guid: 4b61dfc98b7823945a4bdf21ef10f950, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -4768,6 +4982,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1065353607}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (5)
@@ -4830,6 +5048,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1407914768}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (4)
@@ -4892,6 +5114,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 381965741}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (5)
@@ -5091,6 +5317,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1336001128}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (5)
@@ -5200,6 +5430,10 @@ PrefabInstance:
     - target: {fileID: 4004313058116802641, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
       propertyPath: m_Name
       value: Small_Cubicle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313059337703822, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_Intensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
@@ -5343,6 +5577,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 887706503}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (6)
@@ -5441,7 +5679,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_Range: 50
   m_SpotAngle: 113
   m_InnerSpotAngle: 21.80208
@@ -5498,6 +5736,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 324945126}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (7)
@@ -5694,6 +5936,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 324945126}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (1)
@@ -5985,7 +6231,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5
+  m_Intensity: 2
   m_Range: 50
   m_SpotAngle: 113
   m_InnerSpotAngle: 21.80208
@@ -6042,6 +6288,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 519185690}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (5)
@@ -6140,7 +6390,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5
+  m_Intensity: 2
   m_Range: 50
   m_SpotAngle: 113
   m_InnerSpotAngle: 21.80208
@@ -6197,6 +6447,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1336001128}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (4)
@@ -6450,6 +6704,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1526072933}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (5)
@@ -6675,7 +6933,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_Range: 50
   m_SpotAngle: 113
   m_InnerSpotAngle: 21.80208
@@ -6732,6 +6990,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 519185690}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (6)
@@ -6826,6 +7088,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1065353607}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (6)
@@ -6888,6 +7154,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1534069578}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (5)
@@ -7345,6 +7615,99 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1607051599}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1616250305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1616250306}
+  - component: {fileID: 1616250307}
+  m_Layer: 0
+  m_Name: Spot Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1616250306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616250305}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 397642807}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!108 &1616250307
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616250305}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 3
+  m_Range: 200
+  m_SpotAngle: 36.4
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 1
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1001 &1630566434
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7352,6 +7715,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1361125359}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (4)
@@ -7549,7 +7916,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_Range: 50
   m_SpotAngle: 113
   m_InnerSpotAngle: 21.80208
@@ -7737,7 +8104,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_Range: 50
   m_SpotAngle: 113
   m_InnerSpotAngle: 21.80208
@@ -7843,6 +8210,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1733023827}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (5)
@@ -7990,6 +8361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Large_Cubicle
       objectReference: {fileID: 0}
+    - target: {fileID: 1186513150086390616, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1186513150086390617, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.407
@@ -7998,6 +8373,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.08
       objectReference: {fileID: 0}
+    - target: {fileID: 2874839102179180224, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2874839102179180225, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -8006,6 +8385,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 2874839103008427276, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2874839103008427277, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.179
@@ -8013,6 +8396,10 @@ PrefabInstance:
     - target: {fileID: 2874839103366116512, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.297
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839103366116527, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
@@ -8060,6 +8447,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 324945126}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway
@@ -8122,6 +8513,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1156140595}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: West_Wing_Hallway (5)
@@ -8232,6 +8627,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Small_Cubicle
       objectReference: {fileID: 0}
+    - target: {fileID: 4004313059337703822, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
 --- !u!4 &1804790220 stripped
@@ -8246,6 +8645,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 645184515}
     m_Modifications:
+    - target: {fileID: 480002904840752816, guid: 4b61dfc98b7823945a4bdf21ef10f950, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 480002904840752816, guid: 4b61dfc98b7823945a4bdf21ef10f950, type: 3}
       propertyPath: m_SpotAngle
       value: 108
@@ -8457,6 +8860,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Large_Cubicle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1186513150086390616, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1186513150086390617, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.407
@@ -8465,6 +8872,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.08
       objectReference: {fileID: 0}
+    - target: {fileID: 2874839102179180224, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2874839102179180225, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -8473,13 +8884,25 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 2874839103008427276, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2874839103008427277, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.179
       objectReference: {fileID: 0}
+    - target: {fileID: 2874839103008427277, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.346
+      objectReference: {fileID: 0}
     - target: {fileID: 2874839103366116512, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.297
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839103366116527, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
@@ -8495,6 +8918,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 381965741}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (6)
@@ -8557,6 +8984,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1156140595}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: West_Wing_Hallway (6)
@@ -8619,6 +9050,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1005043901}
     m_Modifications:
+    - target: {fileID: 480002904840752816, guid: 4b61dfc98b7823945a4bdf21ef10f950, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 480002904993553433, guid: 4b61dfc98b7823945a4bdf21ef10f950, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -8712,6 +9147,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1156140595}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: West_Wing_Hallway (1)
@@ -8774,6 +9213,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1005043901}
     m_Modifications:
+    - target: {fileID: 480002904840752816, guid: 4b61dfc98b7823945a4bdf21ef10f950, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 480002904993553433, guid: 4b61dfc98b7823945a4bdf21ef10f950, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -8868,6 +9311,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 950220169}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (4)
@@ -9058,6 +9505,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2034702074}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (5)
@@ -9215,6 +9666,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 645184515}
     m_Modifications:
+    - target: {fileID: 480002904840752816, guid: 4b61dfc98b7823945a4bdf21ef10f950, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 480002904993553433, guid: 4b61dfc98b7823945a4bdf21ef10f950, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -9277,6 +9732,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1449712192}
     m_Modifications:
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: Entrance_Hallway_Section
@@ -9405,7 +9864,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5
+  m_Intensity: 2
   m_Range: 50
   m_SpotAngle: 113
   m_InnerSpotAngle: 21.80208
@@ -9467,7 +9926,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5
+  m_Intensity: 2
   m_Range: 50
   m_SpotAngle: 113
   m_InnerSpotAngle: 21.80208
@@ -9591,7 +10050,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5
+  m_Intensity: 2
   m_Range: 50
   m_SpotAngle: 113
   m_InnerSpotAngle: 21.80208
@@ -10056,7 +10515,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_Range: 50
   m_SpotAngle: 113
   m_InnerSpotAngle: 21.80208
@@ -10118,7 +10577,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_Range: 50
   m_SpotAngle: 113
   m_InnerSpotAngle: 21.80208
@@ -10180,7 +10639,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_Range: 50
   m_SpotAngle: 113
   m_InnerSpotAngle: 21.80208
@@ -10326,7 +10785,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5
+  m_Intensity: 2
   m_Range: 50
   m_SpotAngle: 113
   m_InnerSpotAngle: 21.80208
@@ -11080,7 +11539,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_Range: 50
   m_SpotAngle: 113
   m_InnerSpotAngle: 21.80208
@@ -11268,6 +11727,10 @@ PrefabInstance:
     - target: {fileID: 3728827951077256895, guid: 9a8e06ed0cfcdc24aa4611a6675316d2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5234209313647833106, guid: 9a8e06ed0cfcdc24aa4611a6675316d2, type: 3}
+      propertyPath: m_Intensity
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a8e06ed0cfcdc24aa4611a6675316d2, type: 3}

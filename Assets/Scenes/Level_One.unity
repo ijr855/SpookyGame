@@ -7383,6 +7383,55 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4004313058116802640, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
   m_PrefabInstance: {fileID: 1049763083}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+=======
+--- !u!1 &1058383255
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1058383257}
+  - component: {fileID: 1058383256}
+  m_Layer: 0
+  m_Name: EnemySpawnArea
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1058383256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058383255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0d90ec509f934743a48a57374f5944c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  center: {x: 565, y: 20, z: 20}
+  size: {x: 40, y: 35, z: 600}
+  enemyPrefab: {fileID: 8501645902228256732, guid: 0d81c49652ba4eb49b4037e1bbd3a788, type: 3}
+--- !u!4 &1058383257
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058383255}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 300.5185, y: -85.506874, z: 95.969604}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
 --- !u!1 &1063352739
 GameObject:
   m_ObjectHideFlags: 0
@@ -7716,6 +7765,7 @@ PrefabInstance:
     - target: {fileID: 132590031200408218, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_NavMeshLayer
       value: 1
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 132590031200408218, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7781,6 +7831,73 @@ PrefabInstance:
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
+=======
+      objectReference: {fileID: 0}
+    - target: {fileID: 132590031200408218, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356181530538737994, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356181530538737994, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1684702056554779898, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1684702056554779898, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438382089076604796, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Name
+      value: East_Wing_Hallway (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601396705249691136, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601396705249691136, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 191.82928
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 123.45734
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.833374
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
     - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0.7071068
@@ -8516,6 +8633,111 @@ Light:
   m_ShadowAngle: 0
 --- !u!1001 &1301397399
 PrefabInstance:
+<<<<<<< HEAD
+=======
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1336001128}
+    m_Modifications:
+    - target: {fileID: 132590031200408218, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 132590031200408218, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356181530538737994, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356181530538737994, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1684702056554779898, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1684702056554779898, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438382089076604796, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Name
+      value: East_Wing_Hallway (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601396705249691136, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601396705249691136, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 217.96225
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -221.26328
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.177643
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+--- !u!4 &1301397400 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+  m_PrefabInstance: {fileID: 1301397399}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1336001127
+GameObject:
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
@@ -8777,6 +8999,8 @@ BoxCollider:
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1401580497
 MeshRenderer:
+<<<<<<< HEAD
+=======
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8826,6 +9050,72 @@ MeshFilter:
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1407914767
 GameObject:
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1401580494}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1401580498
+MeshFilter:
+=======
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1407914768}
+  m_Layer: 0
+  m_Name: SW_Hallway_Long (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1407914768
+Transform:
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1401580494}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1407914767
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8846,6 +9136,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
   m_GameObject: {fileID: 1407914767}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -14.935883, y: -102.81094, z: -189.2537}
@@ -9440,6 +9732,7 @@ PrefabInstance:
     - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_Name
       value: East_Wing_Hallway (5)
+<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 6601396705249691136, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_NavMeshLayer
@@ -9453,6 +9746,21 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+=======
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601396705249691136, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601396705249691136, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
     - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 37.923996
@@ -9971,6 +10279,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1607051599
 GameObject:
+<<<<<<< HEAD
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10539,6 +10848,571 @@ Light:
   m_ShadowAngle: 0
 --- !u!1 &1659528478
 GameObject:
+=======
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1659528479}
+  - component: {fileID: 1659528482}
+  - component: {fileID: 1659528481}
+  - component: {fileID: 1659528480}
+  m_Layer: 0
+  m_Name: NSWall_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
+  m_IsActive: 1
+--- !u!4 &1659528479
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659528478}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 55.04907, y: -14.063015, z: 30.220716}
+  m_LocalScale: {x: 50, y: 50, z: 0.5}
+  m_Children: []
+  m_Father: {fileID: 1673120897}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1659528480
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659528478}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1659528481
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659528478}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1659528482
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659528478}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1664193867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1664193868}
+  - component: {fileID: 1664193869}
+  m_Layer: 0
+  m_Name: Point Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
+  m_IsActive: 1
+--- !u!4 &1664193868
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1664193867}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.232, y: -0.145, z: 27.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2091793527}
+=======
+  m_GameObject: {fileID: 1616250305}
+  m_LocalRotation: {x: -0, y: -0.025163826, z: -0, w: 0.9996833}
+  m_LocalPosition: {x: 0.059999965, y: -0.020801783, z: -0.18}
+  m_LocalScale: {x: 0.19440949, y: 0.19440952, z: 0.19440949}
+  m_Children: []
+  m_Father: {fileID: 3617948478850702497}
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &1664193869
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664193867}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+<<<<<<< HEAD
+  m_Intensity: 2
+  m_Range: 50
+  m_SpotAngle: 113
+=======
+  m_Intensity: 3
+  m_Range: 200
+  m_SpotAngle: 66.63247
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+<<<<<<< HEAD
+--- !u!1 &1673120896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1673120897}
+  - component: {fileID: 1673120898}
+  m_Layer: 0
+  m_Name: East_Wing_Hallway (4)
+  m_TagString: Small_Cubicle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1673120897
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673120896}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 217.96225, y: -221.26328, z: 10.177643}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1659528479}
+  - {fileID: 261812232}
+  m_Father: {fileID: 520108514}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &1673120898
+NavMeshObstacle:
+=======
+--- !u!1001 &1627219985
+PrefabInstance:
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673120896}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!1001 &1678008954
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1733023827}
+    m_Modifications:
+    - target: {fileID: 132590031200408218, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 132590031200408218, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356181530538737994, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356181530538737994, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1684702056554779898, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1684702056554779898, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438382089076604796, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Name
+      value: East_Wing_Hallway (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601396705249691136, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601396705249691136, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 267.96225
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -221.26328
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.177643
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+--- !u!4 &1678008955 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+  m_PrefabInstance: {fileID: 1678008954}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1678056307 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: d2a377b97363a554a96a26b876de1213, type: 3}
+  m_PrefabInstance: {fileID: 1541122592}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1692977512 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3728827951077256895, guid: 9a8e06ed0cfcdc24aa4611a6675316d2, type: 3}
+  m_PrefabInstance: {fileID: 6905707332004003718}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1707792279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1707792280}
+  m_Layer: 0
+  m_Name: Hotel_Entrance
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1707792280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707792279}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -84.71644, y: -113.30258, z: 154.21896}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1449712192}
+  - {fileID: 1692977512}
+  m_Father: {fileID: 456479438}
+  m_RootOrder: 1
+<<<<<<< HEAD
+=======
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!65 &1639609239
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639609237}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1639609240
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639609237}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1639609241
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639609237}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1655215146 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400002, guid: b3cad47395084a24ab9316d8de9eba94, type: 3}
+  m_PrefabInstance: {fileID: 322411250}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1659134745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1659134746}
+  - component: {fileID: 1659134747}
+  m_Layer: 0
+  m_Name: Point Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
+  m_IsActive: 1
+--- !u!4 &1659134746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659134745}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.232, y: -0.145, z: 27.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1150375039}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &1659134747
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659134745}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 2
+  m_Range: 50
+  m_SpotAngle: 113
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1659528478
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10917,6 +11791,7 @@ Transform:
   - {fileID: 1692977512}
   m_Father: {fileID: 456479438}
   m_RootOrder: 1
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1731976639
 PrefabInstance:
@@ -10938,6 +11813,12 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1186513149175540358, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+<<<<<<< HEAD
+      propertyPath: m_LocalPosition.x
+      value: 346.0263
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149175540358, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+=======
       propertyPath: m_LocalPosition.x
       value: 346.0263
       objectReference: {fileID: 0}
@@ -11204,9 +12085,25 @@ PrefabInstance:
       value: -454.67072
       objectReference: {fileID: 0}
     - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
       propertyPath: m_LocalPosition.y
       value: 123.45734
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 1186513149175540358, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -268.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149175540358, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149175540358, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149175540358, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+=======
     - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.833374
@@ -11220,9 +12117,21 @@ PrefabInstance:
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: -0.7071068
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 1186513149175540358, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149175540358, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149175540358, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+=======
     - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
@@ -11232,9 +12141,168 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
+      value: -90
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 1186513149175540358, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149175540359, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Name
+      value: Large_Cubicle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149285863150, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149285863150, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149471206773, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149471206773, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149642776505, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149642776505, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149836280713, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149836280759, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149836280759, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149845384716, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149845384716, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513150086390598, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513150086390598, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513150086390616, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513150086390617, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.407
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513150086390617, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513150127444388, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513150127444388, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839102179180224, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839102179180225, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839102179180225, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839102179180226, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839102179180226, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839103008427276, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839103008427277, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839103008427278, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839103008427278, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839103366116512, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.297
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839103366116513, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839103366116513, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839103366116527, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+--- !u!4 &1731976640 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1186513149175540358, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+  m_PrefabInstance: {fileID: 1731976639}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1733023826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1733023827}
+  m_Layer: 0
+  m_Name: NE_Hallway_Long
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1733023827
+=======
     - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
@@ -11478,20 +12546,100 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
 --- !u!4 &1804790220 stripped
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
 Transform:
   m_CorrespondingSourceObject: {fileID: 4004313058116802640, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
   m_PrefabInstance: {fileID: 1804790219}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1733023826}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -114.93593, y: -102.81094, z: -189.2537}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 241186779}
+  - {fileID: 1678008955}
+  m_Father: {fileID: 1005043901}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1740620607
+=======
 --- !u!4 &1811893099 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: 5692ea7adcac2734186a38415b80ea09, type: 3}
   m_PrefabInstance: {fileID: 714543038}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1837230905
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
+    m_TransformParent: {fileID: 324945126}
+    m_Modifications:
+    - target: {fileID: 132590031200408218, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 132590031200408218, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356181530538737994, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356181530538737994, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1684702056554779898, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1684702056554779898, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438382089076604796, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Name
+      value: East_Wing_Hallway
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601396705249691136, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601396705249691136, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -454.67072
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 123.45734
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.833374
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+=======
     m_TransformParent: {fileID: 431793683}
     m_Modifications:
     - target: {fileID: 100000, guid: 51df288df6d8c864aae27c801a5fd8a5, type: 3}
@@ -11591,6 +12739,587 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7.499999
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 71.85001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -39
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.399971
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+=======
+    - target: {fileID: 400008, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+=======
+    - target: {fileID: 400008, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+=======
+    - target: {fileID: 400008, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+=======
+    - target: {fileID: 400008, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+--- !u!4 &1740620608 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+  m_PrefabInstance: {fileID: 1740620607}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1752118320
+=======
+    - target: {fileID: 400008, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9ef60bdc624a1594e89bdc4d48adc8da, type: 2}
+    - target: {fileID: 2300002, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b5ded758bc8effe4a8fca6adf3012a5a, type: 2}
+    - target: {fileID: 2300004, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3ce1607272ebf6f409222542a2548d9a, type: 2}
+    - target: {fileID: 2300008, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 366679cf3713065428e131e78f9593ee, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+--- !u!4 &1860088714 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400008, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+  m_PrefabInstance: {fileID: 410466649}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1869006152
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1156140595}
+    m_Modifications:
+    - target: {fileID: 132590031200408218, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 132590031200408218, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 1356181530538737994, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+=======
+    - target: {fileID: 480002903890574430, guid: 4b61dfc98b7823945a4bdf21ef10f950, type: 3}
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356181530538737994, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 1684702056554779898, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+=======
+    - target: {fileID: 480002903943515287, guid: 4b61dfc98b7823945a4bdf21ef10f950, type: 3}
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1684702056554779898, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438382089076604796, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Name
+      value: West_Wing_Hallway (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601396705249691136, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601396705249691136, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 191.82928
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 123.45734
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 101.333374
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+--- !u!4 &1752118321 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+  m_PrefabInstance: {fileID: 1752118320}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1804790219
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1005043901}
+    m_Modifications:
+    - target: {fileID: 4004313057527704949, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313057527704949, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313058116802640, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313058116802640, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 302.22632
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313058116802640, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -324.07422
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313058116802640, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
+      value: -168.47604
+=======
+      value: 81.6976
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313058116802640, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313058116802640, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313058116802640, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313058116802640, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313058116802640, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313058116802640, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313058116802640, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313058116802641, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_Name
+      value: Small_Cubicle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313058359713699, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 4004313058359713699, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313058543483960, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+=======
+    - target: {fileID: 480002905005946639, guid: 4b61dfc98b7823945a4bdf21ef10f950, type: 3}
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313058543483960, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313058724490607, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313058724490607, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 4004313059049927007, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313059049927009, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+=======
+    - target: {fileID: 480002905254649495, guid: 4b61dfc98b7823945a4bdf21ef10f950, type: 3}
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313059049927009, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313059059277018, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313059059277018, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 4004313059314082674, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313059314082674, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313059337703822, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313059337703824, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004313059337703824, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+--- !u!4 &1804790220 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4004313058116802640, guid: 4864b40e9b8d33c4a92a3f2e73da243e, type: 3}
+  m_PrefabInstance: {fileID: 1804790219}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1811893099 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400004, guid: 5692ea7adcac2734186a38415b80ea09, type: 3}
+  m_PrefabInstance: {fileID: 714543038}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1837230905
+=======
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4b61dfc98b7823945a4bdf21ef10f950, type: 3}
+--- !u!4 &1869006153 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 480002904993553433, guid: 4b61dfc98b7823945a4bdf21ef10f950, type: 3}
+  m_PrefabInstance: {fileID: 1869006152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1871793637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1871793638}
+  - component: {fileID: 1871793639}
+  m_Layer: 0
+  m_Name: East_Wing_Hallway (3)
+  m_TagString: Small_Cubicle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1871793638
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871793637}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 203.2049, y: -127.61597, z: 40.097595}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1401580495}
+  - {fileID: 136937675}
+  m_Father: {fileID: 645184515}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &1871793639
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871793637}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!1 &1872943730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1872943731}
+  m_Layer: 0
+  m_Name: NE_Hallway_Long (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1872943731
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872943730}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -14.935883, y: -102.81094, z: -189.2537}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 938563413}
+  - {fileID: 7600847495520471174}
+  m_Father: {fileID: 1005043901}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1878361448
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 431793683}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 51df288df6d8c864aae27c801a5fd8a5, type: 3}
+      propertyPath: m_Name
+      value: rack_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 51df288df6d8c864aae27c801a5fd8a5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 51df288df6d8c864aae27c801a5fd8a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 400000, guid: 51df288df6d8c864aae27c801a5fd8a5, type: 3}
+=======
+    - target: {fileID: 1186513149175540358, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51df288df6d8c864aae27c801a5fd8a5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51df288df6d8c864aae27c801a5fd8a5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51df288df6d8c864aae27c801a5fd8a5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7500001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51df288df6d8c864aae27c801a5fd8a5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 67.15001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51df288df6d8c864aae27c801a5fd8a5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -39
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51df288df6d8c864aae27c801a5fd8a5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 26.19999
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51df288df6d8c864aae27c801a5fd8a5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51df288df6d8c864aae27c801a5fd8a5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51df288df6d8c864aae27c801a5fd8a5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51df288df6d8c864aae27c801a5fd8a5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51df288df6d8c864aae27c801a5fd8a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51df288df6d8c864aae27c801a5fd8a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51df288df6d8c864aae27c801a5fd8a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 2300000, guid: 51df288df6d8c864aae27c801a5fd8a5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9a21eb46837654f4f84d01d31001741d, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 51df288df6d8c864aae27c801a5fd8a5, type: 3}
+--- !u!1001 &1856526532
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 431793683}
+    m_Modifications:
+    - target: {fileID: 100000, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+=======
+    - target: {fileID: 1186513149175540359, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Name
+      value: Large_Cubicle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149285863150, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+      propertyPath: m_Name
+      value: bed_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 400008, guid: a11d318bf37c01d489a19dc2dc33ed7d, type: 3}
       propertyPath: m_LocalScale.x
       value: 7.499999
@@ -12107,6 +13836,134 @@ PrefabInstance:
     m_TransformParent: {fileID: 381965741}
     m_Modifications:
     - target: {fileID: 132590031200408218, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+=======
+    - target: {fileID: 1186513149642776505, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149642776505, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149836280713, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149836280759, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149836280759, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149845384716, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513149845384716, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513150086390598, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513150086390598, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513150086390616, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513150086390617, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.407
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513150086390617, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513150127444388, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186513150127444388, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839102179180224, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839102179180225, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839102179180225, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839102179180226, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839102179180226, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839103008427276, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839103008427277, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.179
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839103008427277, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.346
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839103008427278, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839103008427278, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839103366116512, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.297
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839103366116513, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839103366116513, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2874839103366116527, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+--- !u!4 &1878361449 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1186513149175540358, guid: 23d6716ca97758c49aca0b2c2a4557ca, type: 3}
+  m_PrefabInstance: {fileID: 1878361448}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1889195896
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 381965741}
+    m_Modifications:
+    - target: {fileID: 132590031200408218, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
@@ -12143,6 +14000,7 @@ PrefabInstance:
       value: East_Wing_Hallway (6)
       objectReference: {fileID: 0}
     - target: {fileID: 6601396705249691136, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
@@ -12150,6 +14008,45 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 8
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 1356181530538737994, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1356181530538737994, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1684702056554779898, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1684702056554779898, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438382089076604796, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3752364089463630402, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5995497724490971986, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_Name
+      value: East_Wing_Hallway (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601396705249691136, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601396705249691136, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+=======
+>>>>>>> parent of fcc9349 (Merge branch 'main' into Tiffanys-Branch)
     - target: {fileID: 7600847496327013417, guid: d48916ebc85be7547b25fa9f7725f6b5, type: 3}
       propertyPath: m_RootOrder
       value: 1

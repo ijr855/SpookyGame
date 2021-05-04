@@ -36,9 +36,11 @@ public class Elevator : MonoBehaviour
         }
 
         //move down
-        if (other.tag == "Player" && goUp == false && ( level1.transform.localScale.y < movingPlatform.transform.position.y))
+        if (other.tag == "Player" && goUp == false && ( level1.transform.position.y  - 1 < movingPlatform.transform.position.y))
         {
             movingPlatform.transform.position += Vector3.down * Time.deltaTime;
+            Debug.Log("movingPlatform position y is  " + movingPlatform.transform.position.y);
+            Debug.Log("level1.transform.localScale.y is  " + level1.transform.position.y);
         }
 
     }

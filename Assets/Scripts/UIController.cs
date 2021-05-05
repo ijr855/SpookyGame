@@ -109,7 +109,7 @@ public class UIController : MonoBehaviour
 
         isDeadMenuEnabled = true;
 
-        GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameController>().isDead = false;
+        GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameController>().isDead = true;
 
         pauseDisabled = true;
 

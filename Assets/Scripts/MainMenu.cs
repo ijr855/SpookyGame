@@ -27,6 +27,8 @@ public class MainMenu : MonoBehaviour
     }
 
     public void StartGame(){
+        Debug.Log("Starting game");
+
         SceneManager.LoadScene(1); //load the next scene Level 0 
 
     }

@@ -55,8 +55,9 @@ public class Screens : MonoBehaviour
 
     public void ReturnMainMenu(){
         PlayerPrefs.DeleteAll();
-        SceneManager.LoadScene("TitleScreen"); //load the next scene Level 0 
         controller.lockCursor = false;
+        SceneManager.LoadScene(1); //load the next scene Level 0 
+        
 
     }
 

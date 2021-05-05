@@ -47,7 +47,7 @@ public class PieceTracker : MonoBehaviour
             pieceThree = true;
 
         }
-        if (box1 && box2 && box3)
+        if (pieceOne && pieceTwo && pieceThree)
         {
             GameObject.FindGameObjectWithTag("DoorBlocker").SetActive(false);
         }

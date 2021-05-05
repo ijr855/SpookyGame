@@ -17,7 +17,9 @@ public class GameController : MonoBehaviour
  
     public bool lockCursor = true;
 
-
+    public bool victory = false;
+    public bool isDead = false;
+    public bool isPaused = false;
 
     void Start()
     {
@@ -33,7 +35,19 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     { 
+        if(health <= 0){
+            GameOver();
+            lockCursor = false;
 
+        }
+        
+
+        
+        if(Input.GetKeyDown(KeyCode.Escape) && !isDead){
+            isPaused = true;
+            lockCursor = false;
+           
+        }
         if (lockCursor) {
             Cursor.visible = false;
              Cursor.lockState = CursorLockMode.Locked;
@@ -44,9 +58,13 @@ public class GameController : MonoBehaviour
     }
 
 
-    // use this function to swithc to game over screen
-    public void GameOver(){
+     void Victory(){
+        victory = true;
+    }
+
+    void GameOver(){
         Debug.Log("Game Over!");
+        isDead = true;
     }
 
     void ChangeLevels(){

@@ -10,8 +10,11 @@ public class MusicController : MonoBehaviour
 
     int currentSong = 0;
     private bool musicFadeOutEnabled = false;
+    private bool musicFadeInEnabled = false;
     private bool playMusic = true;
     private bool changeMusic = false;
+
+    private bool firstRun = true;
 
     private enum Locations { TITLE_SCREEN, LEVEL_ONE }
     private Locations location = Locations.TITLE_SCREEN;
@@ -25,10 +28,22 @@ public class MusicController : MonoBehaviour
 
     private void Update()
     {
-        if(SceneManager.GetActiveScene().name == "Level_One")
+        Debug.Log("AS " + audioSource.isPlaying);
+
+        Debug.Log("CM " + changeMusic);
+
+        Debug.Log("PM " + playMusic);
+
+        Debug.Log("L " + location);
+
+        Debug.Log("MFO " + musicFadeOutEnabled);
+
+        if (SceneManager.GetActiveScene().name == "Level_One" && firstRun)
         {
             location = Locations.LEVEL_ONE;
             changeMusic = true;
+
+            firstRun = false;
         }
 
         if (changeMusic == true && musicFadeOutEnabled == false)
@@ -40,25 +55,36 @@ public class MusicController : MonoBehaviour
 
         if (audioSource.isPlaying == false && playMusic == true && location == Locations.TITLE_SCREEN)
         {
+            location = Locations.LEVEL_ONE;
             PlayMusic();
         }
 
         if (audioSource.isPlaying == false && playMusic == true && location != Locations.TITLE_SCREEN)
         {
             currentSong++;
+
             if (currentSong >= audioClips.Length)
             {
+                PlayRandomMusic();
                 currentSong = 1;
+            } else
+            {
                 PlayRandomMusic();
             }
+
+            musicFadeInEnabled = true;
         }
 
         if (musicFadeOutEnabled && audioSource.isPlaying == true)
         {
-            if (audioSource.volume <= 0.1f)
+            if (audioSource.volume < 0.1f)
             {
                 StopMusic();
                 musicFadeOutEnabled = false;
+
+                playMusic = true;
+
+                changeMusic = false;
             }
             else
             {
@@ -66,6 +92,27 @@ public class MusicController : MonoBehaviour
                 if (newVolume < 0f)
                 {
                     newVolume = 0f;
+                }
+                audioSource.volume = newVolume;
+            }
+        }
+
+        if (musicFadeInEnabled && audioSource.isPlaying == true)
+        {
+            if (audioSource.volume > 0.49f)
+            {
+                musicFadeInEnabled = false;
+
+                playMusic = false;
+
+                changeMusic = false;
+            }
+            else
+            {
+                float newVolume = audioSource.volume + (0.1f * Time.deltaTime);
+                if (newVolume > 0.25f)
+                {
+                    newVolume = 0.25f;
                 }
                 audioSource.volume = newVolume;
             }

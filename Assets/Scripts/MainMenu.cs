@@ -27,7 +27,7 @@ public class MainMenu : MonoBehaviour
     }
 
     public void StartGame(){
-        SceneManager.LoadScene(newGameScene); //load the next scene Level 0 
+        SceneManager.LoadScene(1); //load the next scene Level 0 
 
     }
 

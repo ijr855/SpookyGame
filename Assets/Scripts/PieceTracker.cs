@@ -23,6 +23,7 @@ public class PieceTracker : MonoBehaviour
         box3 = GameObject.FindGameObjectWithTag("Box3");
     }
     // Update is called once per frame
+
     void Update()
     {
         if (box1.GetComponent<BoxInteraction>().wasEPressed() == true)
@@ -44,6 +45,12 @@ public class PieceTracker : MonoBehaviour
             box3Text.text = "Piece3: Found";
             box3Text.color = Color.green;
             pieceThree = true;
+
+        }
+        if (box1 && box2 && box3)
+        {
+            GameObject.FindGameObjectWithTag("DoorBlocker").SetActive(false);
         }
     }
+
 }

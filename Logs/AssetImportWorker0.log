@@ -369,3 +369,19 @@ System memory in use after: 87.0 MB.
 Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1769.
 Total: 2.438600 ms (FindLiveObjects: 0.233600 ms CreateObjectMapping: 0.065500 ms MarkObjects: 1.768200 ms  DeleteObjects: 0.369700 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 306.251127 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986c7e33ac6f4843b8e8220735c3e437') in 0.038438 seconds
+  Import took 0.042411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.555439 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f18ec9d4635737fa401f03a5408941') in 0.008574 seconds
+  Import took 0.011610 seconds .
+

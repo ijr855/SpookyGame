@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Small_Cubicle
+  - Box1
+  - Box2
+  - Box3
+  - DoorBlocker
   layers:
   - Default
   - TransparentFX

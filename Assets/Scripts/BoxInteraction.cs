@@ -9,7 +9,6 @@ public class BoxInteraction : MonoBehaviour
     public bool isEPressed = false;
     [SerializeField] private Text pieceText;
     public string pickedUp;
-    public bool peiceOne = false;
     private bool canInteract = false;
     [SerializeField] private GameObject interactPanel;
     void Start()

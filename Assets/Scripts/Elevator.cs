@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Elevator : MonoBehaviour
 {
+    [SerializeField] GameObject gameController;
     //the platform that will move
     public GameObject movingPlatform;
     private bool goUp = false;
@@ -30,7 +31,7 @@ public class Elevator : MonoBehaviour
         //move up
         if (other.tag == "Player" && goUp == true && (level2.transform.position.y >  movingPlatform.transform.position.y))
         {
-            movingPlatform.transform.position += Vector3.up* Time.deltaTime;
+            movingPlatform.transform.position += Vector3.up* Time.deltaTime*3;
             Debug.Log("movingPlatform position y is  " + movingPlatform.transform.position.y);
             Debug.Log("level2.transform.localScale.y is  " + level2.transform.localScale.y);
         }
@@ -38,7 +39,7 @@ public class Elevator : MonoBehaviour
         //move down
         if (other.tag == "Player" && goUp == false && ( level1.transform.position.y  - 1 < movingPlatform.transform.position.y))
         {
-            movingPlatform.transform.position += Vector3.down * Time.deltaTime;
+            movingPlatform.transform.position += Vector3.down * Time.deltaTime*3;
             Debug.Log("movingPlatform position y is  " + movingPlatform.transform.position.y);
             Debug.Log("level1.transform.localScale.y is  " + level1.transform.position.y);
         }
@@ -48,6 +49,7 @@ public class Elevator : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         //Debug.Log("Trigger changes go up");
+        gameController.GetComponent<GameController>().takeElevator();
 
         if (goUp == true && other.tag == "Player")
         {

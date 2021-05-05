@@ -44,8 +44,6 @@ public class BoxInteraction : MonoBehaviour
     {
         if (isEPressed == true)
         {
-            pieceText.text = "";
-            //peiceOne = true;
             other.isTrigger = false;
         }
         canInteract = false;

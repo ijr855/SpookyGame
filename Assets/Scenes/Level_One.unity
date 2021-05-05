@@ -44682,6 +44682,10 @@ PrefabInstance:
       propertyPath: jumpH
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 8111289702750197194, guid: b3ebca3f9ad186a48a4f3ca1900f778c, type: 3}
+      propertyPath: movementSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8924665164947902335, guid: b3ebca3f9ad186a48a4f3ca1900f778c, type: 3}
       propertyPath: m_RootOrder
       value: 4

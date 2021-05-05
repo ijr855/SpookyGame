@@ -65,6 +65,7 @@ public class GameController : MonoBehaviour
 
     IEnumerator RespawnEnemy()
     {
+        Destroy(GameObject.FindGameObjectWithTag("Enemy"));
         yield return new WaitForSeconds(10);
         // if elevator taken = true, player on second floor. Need to spawn enemy on 2nd floor. 
         int NewEnemyYAxis = (this.elevatorTaken) ? 75 : 25;

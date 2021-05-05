@@ -10,23 +10,26 @@ public class GameController : MonoBehaviour
     [SerializeField] GameObject player;
     [SerializeField] GameObject ghost;
     [SerializeField] GameObject EnemySpawn;
+    [SerializeField] GameObject EnemySpawn2;
 
     private bool elevatorTaken = false; // true = player on 2nd floor
     public int health = 100;
     public int level;
  
     public bool lockCursor = true;
-
+    int floorHolder;
 
 
     void Start()
     {
+
+
         Cursor.visible = false; //make mouse invis
         Cursor.lockState = CursorLockMode.Locked;//lock mouse
 
         health = PlayerPrefs.GetInt("PlayerHealth", 100); //get current health if no health default is fifty
         level = PlayerPrefs.GetInt("PlayerLevel", 1); //get current level if no level default is one
-
+        floorHolder = 1;
     }
 
  
@@ -58,19 +61,36 @@ public class GameController : MonoBehaviour
     // when player interacts with elevator -> their script must call this function
     public void takeElevator()
     {
-        this.elevatorTaken = !this.elevatorTaken;
-        StartCoroutine(this.RespawnEnemy());
+        elevatorTaken = !elevatorTaken;
+        StartCoroutine("RespawnEnemy");
     }
 
 
     IEnumerator RespawnEnemy()
     {
         Destroy(GameObject.FindGameObjectWithTag("Enemy"));
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(20);
         // if elevator taken = true, player on second floor. Need to spawn enemy on 2nd floor. 
-        int NewEnemyYAxis = (this.elevatorTaken) ? 75 : 25;
-        EnemySpawn.GetComponent<SpawnObjects>().center.y = NewEnemyYAxis; // 1st or 2nd floor
-        EnemySpawn.GetComponent<SpawnObjects>().SpawnEnemies();
+        
+        //modify the position of where the enemy is 
+        if(level == 1)
+        {
+            level = 2;
+            EnemySpawn2.GetComponent<DefaultSpawner>().SpawnEnemies();
+
+
+        }
+        else
+        {
+            level = 1;
+            EnemySpawn.GetComponent<SpawnObjects>().floorLevel = 1;
+
+
+            int NewEnemyYAxis = (this.elevatorTaken) ? 75 : 25;
+            EnemySpawn.GetComponent<SpawnObjects>().center.y = NewEnemyYAxis; // 1st or 2nd floor
+            EnemySpawn.GetComponent<SpawnObjects>().SpawnEnemies();
+        }
+
 
     }
 

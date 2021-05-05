@@ -27,6 +27,8 @@ public class CameraMovement : MonoBehaviour
 
         //rotate left and right
         player.Rotate(Vector3.up * mouseX);
+
+        Debug.Log("WE rotating");
         
     }
 }

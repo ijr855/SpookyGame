@@ -12,6 +12,13 @@ public class Elevator : MonoBehaviour
     public GameObject level1;
     public GameObject level2;
 
+    int count = 1;
+
+    private void Start()
+    {
+
+    }
+
     private void Update()
     {
         
@@ -31,15 +38,15 @@ public class Elevator : MonoBehaviour
         //move up
         if (other.tag == "Player" && goUp == true && (level2.transform.position.y >  movingPlatform.transform.position.y))
         {
-            movingPlatform.transform.position += Vector3.up* Time.deltaTime*3;
+            movingPlatform.transform.position += Vector3.up * 3 * Time.deltaTime;
             Debug.Log("movingPlatform position y is  " + movingPlatform.transform.position.y);
             Debug.Log("level2.transform.localScale.y is  " + level2.transform.localScale.y);
         }
 
         //move down
-        if (other.tag == "Player" && goUp == false && ( level1.transform.position.y  - 1 < movingPlatform.transform.position.y))
+        if (other.tag == "Player" && goUp == false && ( level1.transform.position.y< movingPlatform.transform.position.y))
         {
-            movingPlatform.transform.position += Vector3.down * Time.deltaTime*3;
+            movingPlatform.transform.position += Vector3.down * 3 * Time.deltaTime;
             Debug.Log("movingPlatform position y is  " + movingPlatform.transform.position.y);
             Debug.Log("level1.transform.localScale.y is  " + level1.transform.position.y);
         }
@@ -48,20 +55,32 @@ public class Elevator : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        //Debug.Log("Trigger changes go up");
-        gameController.GetComponent<GameController>().takeElevator();
+        Debug.Log("Trigger changes from " + goUp);
+        Debug.Log("Trigger changes");
+        
 
-        if (goUp == true && other.tag == "Player")
+        //Remove the count %2 == 1 if we aren't on Level_One, for some reason
+        //on that scene the player triggers the OnTriggerEnter twice
+        if (goUp == true && other.tag == "Player" && count % 2 == 1)
         {
+            Debug.Log("first if");
             goUp = false;
+
+            gameController.GetComponent<GameController>().takeElevator();
         }
         
-        else if (goUp == false && other.tag == "Player" )
+        else if (goUp == false && other.tag == "Player" && count % 2 == 1)
         {
+            Debug.Log("second if");
+
             goUp = true;
+
+            gameController.GetComponent<GameController>().takeElevator();
         }
 
-        //Debug.Log("Trigger changes go up to " + goUp);
+        count++;
+
+        Debug.Log("Trigger changes go up to " + goUp);
     }
 
 

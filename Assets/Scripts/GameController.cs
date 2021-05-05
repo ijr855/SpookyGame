@@ -7,11 +7,16 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
+    [SerializeField] GameObject player;
+    [SerializeField] GameObject ghost;
+    [SerializeField] GameObject EnemySpawn;
 
+    private bool elevatorTaken = false; // true = player on 2nd floor
     public int health = 100;
     public int level;
  
-     public bool lockCursor = true;
+    public bool lockCursor = true;
+
 
 
     void Start()
@@ -27,11 +32,7 @@ public class GameController : MonoBehaviour
  
     // Update is called once per frame
     void Update()
-    {
-        if(health <= 0){
-            GameOver();
-        }
-        
+    { 
 
         if (lockCursor) {
             Cursor.visible = false;
@@ -50,4 +51,25 @@ public class GameController : MonoBehaviour
     void ChangeLevels(){
     
     }
+
+
+    // Enemy cannot take elevator -> must implement way for enemy to traverse hotel floors
+    // when player interacts with elevator -> their script must call this function
+    public void takeElevator()
+    {
+        this.elevatorTaken = !this.elevatorTaken;
+        StartCoroutine(this.RespawnEnemy());
+    }
+
+
+    IEnumerator RespawnEnemy()
+    {
+        yield return new WaitForSeconds(10);
+        // if elevator taken = true, player on second floor. Need to spawn enemy on 2nd floor. 
+        int NewEnemyYAxis = (this.elevatorTaken) ? 75 : 25;
+        EnemySpawn.GetComponent<SpawnObjects>().center.y = NewEnemyYAxis; // 1st or 2nd floor
+        EnemySpawn.GetComponent<SpawnObjects>().SpawnEnemies();
+
+    }
+
 }

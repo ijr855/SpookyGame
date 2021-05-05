@@ -44,7 +44,8 @@ public class GameController : MonoBehaviour
     }
 
 
-    void GameOver(){
+    // use this function to swithc to game over screen
+    public void GameOver(){
         Debug.Log("Game Over!");
     }
 

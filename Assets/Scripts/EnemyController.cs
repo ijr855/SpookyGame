@@ -50,4 +50,13 @@ public class EnemyController : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position,lookRadius);
     }
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().GameOver();
+        }
+    }
 }

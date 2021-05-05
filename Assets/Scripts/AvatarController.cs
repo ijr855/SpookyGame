@@ -29,6 +29,7 @@ public class AvatarController : MonoBehaviour
         if(Input.GetButtonDown("Fire1")){
             anim.SetTrigger("fire");
         }
+      
     }
- 
+
 }

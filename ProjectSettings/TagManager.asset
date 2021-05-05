@@ -10,6 +10,7 @@ TagManager:
   - Box3
   - DoorBlocker
   - Enemy
+  - winPlat
   layers:
   - Default
   - TransparentFX

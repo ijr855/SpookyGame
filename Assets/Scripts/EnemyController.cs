@@ -35,7 +35,6 @@ public class EnemyController : MonoBehaviour
         if(distance <= lookRadius){ //if distance of target is smaller or equal to look radius set the 
             agent.SetDestination(target.position); //set the agent to go after it
             anim.SetBool("isSeen", true);//set to be true
-            Debug.Log("isSeen");
             if(distance <= agent.stoppingDistance){
                 FaceTarget(); //face target
             }

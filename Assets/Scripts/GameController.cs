@@ -11,6 +11,8 @@ public class GameController : MonoBehaviour
     [SerializeField] GameObject ghost;
     [SerializeField] GameObject EnemySpawn;
     [SerializeField] GameObject EnemySpawn2;
+    [SerializeField] private Text victoryText;
+    [SerializeField] private GameObject victoryPanel;
 
     private bool elevatorTaken = false; // true = player on 2nd floor
     public int health = 100;
@@ -29,6 +31,8 @@ public class GameController : MonoBehaviour
 
         health = PlayerPrefs.GetInt("PlayerHealth", 100); //get current health if no health default is fifty
         level = PlayerPrefs.GetInt("PlayerLevel", 1); //get current level if no level default is one
+        victoryPanel.SetActive(false);
+
 
     }
 
@@ -56,10 +60,15 @@ public class GameController : MonoBehaviour
              Cursor.visible = true;
              Cursor.lockState = CursorLockMode.None;
          }
+        if(victory)
+        {
+            victoryPanel.SetActive(true);
+            victoryText.text = "VICTORY";
+        }
     }
 
 
-     void Victory(){
+     public void Victory(){
         victory = true;
     }
 

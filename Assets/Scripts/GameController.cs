@@ -11,9 +11,13 @@ public class GameController : MonoBehaviour
     public int health = 100;
     public int level;
  
-     public bool lockCursor = true;
+    public bool lockCursor = true;
 
+    public bool victory = false;
+    public bool isDead = false;
+    public bool isPaused = false;
 
+    
     void Start()
     {
         Cursor.visible = false; //make mouse invis
@@ -30,21 +34,39 @@ public class GameController : MonoBehaviour
     {
         if(health <= 0){
             GameOver();
+            lockCursor = false;
+
         }
         
 
-        if (lockCursor) {
+        
+        if(Input.GetKeyDown(KeyCode.Escape) && !isDead){
+            isPaused = true;
+            lockCursor = false;
+           
+        }
+
+        
+
+        if (lockCursor) { //lock mouse so you cannot see cursor
             Cursor.visible = false;
              Cursor.lockState = CursorLockMode.Locked;
          } else {
              Cursor.visible = true;
              Cursor.lockState = CursorLockMode.None;
          }
+
+
+
     }
 
+    void Victory(){
+        victory = true;
+    }
 
     void GameOver(){
         Debug.Log("Game Over!");
+        isDead = true;
     }
 
     void ChangeLevels(){

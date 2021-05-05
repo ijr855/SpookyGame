@@ -10,16 +10,21 @@ public class EnemyController : MonoBehaviour
     [Header("Setup Fields")] //divder for organize
     Transform target;
     NavMeshAgent agent;
-    //public Animator anim;
+    public Animator anim;
+    [SerializeField] public GameController gameController;
 
     // Start is called before the first frame update
     void Start()
     {
-        //anim.SetBool("isSeen", false);
+        anim.SetBool("isSeen", false);
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         target = player.transform;
         agent = GetComponent<NavMeshAgent>();
-        
+        anim = GetComponent<Animator>();
+
+        if (!gameController) //if game controller is not assigned then assign gamecontroller 
+            gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+    
     }
 
     // Update is called once per frame
@@ -29,13 +34,13 @@ public class EnemyController : MonoBehaviour
 
         if(distance <= lookRadius){ //if distance of target is smaller or equal to look radius set the 
             agent.SetDestination(target.position); //set the agent to go after it
-            //anim.SetBool("isSeen", true);//set to be true
-
+            anim.SetBool("isSeen", true);//set to be true
+            Debug.Log("isSeen");
             if(distance <= agent.stoppingDistance){
                 FaceTarget(); //face target
             }
         }else{
-            //anim.SetBool("isSeen", false); //-- 
+            anim.SetBool("isSeen", false); //-- 
         }
     }
 
@@ -50,4 +55,11 @@ public class EnemyController : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position,lookRadius);
     }
+
+        private void OnTriggerEnter(Collider other){
+            if(other.gameObject.tag == "Player"){
+                gameController.isDead = true;
+                Debug.Log("Got Spooked and Died");
+            }
+        }
 }

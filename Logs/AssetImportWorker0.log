@@ -15,11 +15,11 @@ C:/Users/valde/OneDrive/Desktop/spring 2021/GameDEV/project/SpookyGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56549
+55532
 Successfully changed project path to: C:/Users/valde/OneDrive/Desktop/spring 2021/GameDEV/project/SpookyGame
 C:/Users/valde/OneDrive/Desktop/spring 2021/GameDEV/project/SpookyGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 43.24 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,56 +35,72 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001437 seconds.
+Registered in 0.001442 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 28.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 40.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.815 seconds
+- Completed reload, in  0.974 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005032 seconds.
+Registered in 0.007798 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.667 seconds
+- Completed reload, in  0.735 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1262 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 71.7 MB.
 System memory in use after: 71.5 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 1738.
-Total: 2.000800 ms (FindLiveObjects: 0.259200 ms CreateObjectMapping: 0.063000 ms MarkObjects: 1.416100 ms  DeleteObjects: 0.261600 ms)
+Total: 1.860200 ms (FindLiveObjects: 0.166600 ms CreateObjectMapping: 0.032100 ms MarkObjects: 1.398400 ms  DeleteObjects: 0.262200 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Prefab/Small_Cubicle.prefab
   artifactKey: Guid(4864b40e9b8d33c4a92a3f2e73da243e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Small_Cubicle.prefab using Guid(4864b40e9b8d33c4a92a3f2e73da243e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2b69a8457d0351683fdbd8dc1de250') in 0.091133 seconds
-  Import took 0.093744 seconds .
+Start importing Assets/Prefab/Small_Cubicle.prefab using Guid(4864b40e9b8d33c4a92a3f2e73da243e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad8edb9b2a63ed1d3e4cbfb06563cc3') in 0.098804 seconds
+  Import took 0.101510 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Prefab/wood_crate1 Variant.prefab
-  artifactKey: Guid(8653e9ecc8a42664dac486ff251a50b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/wood_crate1 Variant.prefab using Guid(8653e9ecc8a42664dac486ff251a50b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88afda3e96f80782f1b28c13ffac763') in 0.060059 seconds
-  Import took 0.062665 seconds .
+  Time since last request: 139.487705 seconds.
+  path: Assets/Scenes/Level_One.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level_One.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbe3186a8900f1e18aa925c87027f87') in 0.005768 seconds
+  Import took 0.008008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.712837 seconds.
+  path: Assets/Scenes/Level_One 1.unity
+  artifactKey: Guid(93e69903c83b09a4bbf77d3bc73cc7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level_One 1.unity using Guid(93e69903c83b09a4bbf77d3bc73cc7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae411a4035bf93d7b0fcdae6a5c2b6a9') in 0.005623 seconds
+  Import took 0.007768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.911144 seconds.
+  path: Assets/Scenes/Jonahs Scene.unity
+  artifactKey: Guid(93e69903c83b09a4bbf77d3bc73cc7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Jonahs Scene.unity using Guid(93e69903c83b09a4bbf77d3bc73cc7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1c2c35849a31fd5a257578a6a7ce93') in 0.006218 seconds
+  Import took 0.008095 seconds .
 

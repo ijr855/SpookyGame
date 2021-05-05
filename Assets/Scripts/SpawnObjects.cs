@@ -23,7 +23,12 @@ public class SpawnObjects : MonoBehaviour
         int count = gameController.level;
 
         if(floorLevel == 1)
+        {
+            Debug.Log("Started delayed spawn");
             StartCoroutine("DelaySpawnInitial");
+        }
+        
+        
 
     }
 
@@ -40,6 +45,7 @@ public class SpawnObjects : MonoBehaviour
 
     IEnumerator DelaySpawnInitial()
     {
+        Debug.Log("Delay Spawn Initiated");
         int timer = 15;
         while (timer > 0)
         {
@@ -48,6 +54,7 @@ public class SpawnObjects : MonoBehaviour
             yield return new WaitForSeconds(1); //return value that suspends computation using scalar time(irl time) then comes back
             timer--;
         }
+        Debug.Log("Spawning");
         SpawnEnemies();
 
     }

@@ -44,7 +44,7 @@ public class Elevator : MonoBehaviour
         }
 
         //move down
-        if (other.tag == "Player" && goUp == false && ( level1.transform.position.y< movingPlatform.transform.position.y))
+        if (other.tag == "Player" && goUp == false && ( level1.transform.position.y -1 < movingPlatform.transform.position.y))
         {
             movingPlatform.transform.position += Vector3.down * 3 * Time.deltaTime;
             Debug.Log("movingPlatform position y is  " + movingPlatform.transform.position.y);
